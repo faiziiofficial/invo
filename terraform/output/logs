@@ -1,0 +1,1053 @@
+aws_db_instance.default: Still creating... [13m50s elapsed]
+aws_db_instance.default: Still creating... [14m0s elapsed]
+aws_db_instance.default: Still creating... [14m10s elapsed]
+aws_db_instance.default: Still creating... [14m20s elapsed]
+aws_db_instance.default: Still creating... [14m30s elapsed]
+aws_db_instance.default: Still creating... [14m40s elapsed]
+aws_db_instance.default: Still creating... [14m50s elapsed]
+aws_db_instance.default: Still creating... [15m0s elapsed]
+aws_db_instance.default: Still creating... [15m10s elapsed]
+aws_db_instance.default: Creation complete after 15m19s [id=db-I6UUMNR5UUCGMJ47N3R2PQWAX4]
+aws_instance.example_instance: Creating...
+aws_instance.example_instance: Still creating... [10s elapsed]
+aws_instance.example_instance: Still creating... [20s elapsed]
+aws_instance.example_instance: Still creating... [30s elapsed]
+aws_instance.example_instance: Provisioning with 'remote-exec'...
+aws_instance.example_instance (remote-exec): Connecting to remote host via SSH...
+aws_instance.example_instance (remote-exec):   Host: 44.193.222.80
+aws_instance.example_instance (remote-exec):   User: ec2-user
+aws_instance.example_instance (remote-exec):   Password: false
+aws_instance.example_instance (remote-exec):   Private key: true
+aws_instance.example_instance (remote-exec):   Certificate: false
+aws_instance.example_instance (remote-exec):   SSH Agent: true
+aws_instance.example_instance (remote-exec):   Checking Host Key: false
+aws_instance.example_instance (remote-exec):   Target Platform: unix
+aws_instance.example_instance (remote-exec): Connected!
+aws_instance.example_instance: Still creating... [40s elapsed]
+aws_instance.example_instance (remote-exec): Waiting for process with pid 2229 to finish.
+aws_instance.example_instance: Still creating... [50s elapsed]
+aws_instance.example_instance (remote-exec): Last metadata expiration check: 0:00:01 ago on Mon Mar  4 12:46:01 2024.
+aws_instance.example_instance (remote-exec): Dependencies resolved.
+aws_instance.example_instance (remote-exec): ========================================
+aws_instance.example_instance (remote-exec):  Package    Arch   Version
+aws_instance.example_instance (remote-exec):                       Repository   Size
+aws_instance.example_instance (remote-exec): ========================================
+aws_instance.example_instance (remote-exec): Installing:
+aws_instance.example_instance (remote-exec):  git        x86_64 2.40.1-1.amzn2023.0.1
+aws_instance.example_instance (remote-exec):                       amazonlinux  57 k
+aws_instance.example_instance (remote-exec): Installing dependencies:
+aws_instance.example_instance (remote-exec):  git-core   x86_64 2.40.1-1.amzn2023.0.1
+aws_instance.example_instance (remote-exec):                       amazonlinux 4.3 M
+aws_instance.example_instance (remote-exec):  git-core-doc
+aws_instance.example_instance (remote-exec):             noarch 2.40.1-1.amzn2023.0.1
+aws_instance.example_instance (remote-exec):                       amazonlinux 2.6 M
+aws_instance.example_instance (remote-exec):  perl-Error noarch 1:0.17029-5.amzn2023.0.2
+aws_instance.example_instance (remote-exec):                       amazonlinux  41 k
+aws_instance.example_instance (remote-exec):  perl-File-Find
+aws_instance.example_instance (remote-exec):             noarch 1.37-477.amzn2023.0.6
+aws_instance.example_instance (remote-exec):                       amazonlinux  26 k
+aws_instance.example_instance (remote-exec):  perl-Git   noarch 2.40.1-1.amzn2023.0.1
+aws_instance.example_instance (remote-exec):                       amazonlinux  45 k
+aws_instance.example_instance (remote-exec):  perl-TermReadKey
+aws_instance.example_instance (remote-exec):             x86_64 2.38-9.amzn2023.0.2
+aws_instance.example_instance (remote-exec):                       amazonlinux  36 k
+aws_instance.example_instance (remote-exec):  perl-lib   x86_64 0.65-477.amzn2023.0.6
+aws_instance.example_instance (remote-exec):                       amazonlinux  15 k
+
+aws_instance.example_instance (remote-exec): Transaction Summary
+aws_instance.example_instance (remote-exec): ========================================
+aws_instance.example_instance (remote-exec): Install  8 Packages
+
+aws_instance.example_instance (remote-exec): Total download size: 7.1 M
+aws_instance.example_instance (remote-exec): Installed size: 34 M
+aws_instance.example_instance (remote-exec): Downloading Packages:
+aws_instance.example_instance (remote-exec):         ---  B/s |   0  B     --:-- ETA
+aws_instance.example_instance (remote-exec): (1/8):  ---  B/s |   0  B     --:-- ETA
+aws_instance.example_instance (remote-exec): (1/8):  338 kB/s |  36 kB     00:00
+aws_instance.example_instance (remote-exec): (2-3/8) 337 kB/s |  36 kB     00:21 ETA
+aws_instance.example_instance (remote-exec): (2/8):  130 kB/s |  15 kB     00:00
+aws_instance.example_instance (remote-exec): (3-4/8) 340 kB/s |  55 kB     00:21 ETA
+aws_instance.example_instance (remote-exec): (3/8):  1.8 MB/s |  45 kB     00:00
+aws_instance.example_instance (remote-exec): (4-5/8) 419 kB/s | 457 kB     00:16 ETA
+aws_instance.example_instance (remote-exec): (4/8):  997 kB/s |  57 kB     00:00
+aws_instance.example_instance (remote-exec): (5-6/8) 559 kB/s | 1.1 MB     00:10 ETA
+aws_instance.example_instance (remote-exec): (5/8):  1.7 MB/s |  41 kB     00:00
+aws_instance.example_instance (remote-exec): (6/8):  559 kB/s | 1.1 MB     00:10 ETA
+aws_instance.example_instance (remote-exec): (6/8):  1.5 MB/s |  26 kB     00:00
+aws_instance.example_instance (remote-exec): (7-8/8) 684 kB/s | 1.8 MB     00:08 ETA
+aws_instance.example_instance (remote-exec): (7/8):   13 MB/s | 4.3 MB     00:00
+aws_instance.example_instance (remote-exec): (8/8):  1.4 MB/s | 5.3 MB     00:01 ETA
+aws_instance.example_instance (remote-exec): (8/8):   10 MB/s | 2.6 MB     00:00
+aws_instance.example_instance (remote-exec): ----------------------------------------
+aws_instance.example_instance (remote-exec): Total    12 MB/s | 7.1 MB     00:00
+aws_instance.example_instance (remote-exec): Running transaction check
+aws_instance.example_instance (remote-exec): Transaction check succeeded.
+aws_instance.example_instance (remote-exec): Running transaction test
+aws_instance.example_instance (remote-exec): Transaction test succeeded.
+aws_instance.example_instance (remote-exec): Running transaction
+aws_instance.example_instance (remote-exec):   Preparing        :  [=          ] 1/1
+aws_instance.example_instance (remote-exec):   Preparing        :  [==         ] 1/1
+aws_instance.example_instance (remote-exec):   Preparing        :  [====       ] 1/1
+aws_instance.example_instance (remote-exec):   Preparing        :  [=====      ] 1/1
+aws_instance.example_instance (remote-exec):   Preparing        :  [======     ] 1/1
+aws_instance.example_instance (remote-exec):   Preparing        :  [========   ] 1/1
+aws_instance.example_instance (remote-exec):   Preparing        :  [=========  ] 1/1
+aws_instance.example_instance (remote-exec):   Preparing        :                1/1
+aws_instance.example_instance (remote-exec):   Installing       : git-c [      ] 1/8
+aws_instance.example_instance (remote-exec):   Installing       : git-c [=     ] 1/8
+aws_instance.example_instance (remote-exec):   Installing       : git-c [==    ] 1/8
+aws_instance.example_instance (remote-exec):   Installing       : git-c [===   ] 1/8
+aws_instance.example_instance (remote-exec):   Installing       : git-c [====  ] 1/8
+aws_instance.example_instance (remote-exec):   Installing       : git-c [===== ] 1/8
+aws_instance.example_instance (remote-exec):   Installing       : git-core-2.4   1/8
+aws_instance.example_instance (remote-exec):   Installing       : git-c [      ] 2/8
+aws_instance.example_instance (remote-exec):   Installing       : git-c [=     ] 2/8
+aws_instance.example_instance (remote-exec):   Installing       : git-c [==    ] 2/8
+aws_instance.example_instance (remote-exec):   Installing       : git-c [===   ] 2/8
+aws_instance.example_instance (remote-exec):   Installing       : git-c [====  ] 2/8
+aws_instance.example_instance (remote-exec):   Installing       : git-c [===== ] 2/8
+aws_instance.example_instance (remote-exec):   Installing       : git-core-doc   2/8
+aws_instance.example_instance (remote-exec):   Installing       : perl- [      ] 3/8
+aws_instance.example_instance (remote-exec):   Installing       : perl- [=     ] 3/8
+aws_instance.example_instance (remote-exec):   Installing       : perl- [===== ] 3/8
+aws_instance.example_instance (remote-exec):   Installing       : perl-File-Fi   3/8
+aws_instance.example_instance (remote-exec):   Installing       : perl- [      ] 4/8
+aws_instance.example_instance (remote-exec):   Installing       : perl- [=     ] 4/8
+aws_instance.example_instance (remote-exec):   Installing       : perl- [==    ] 4/8
+aws_instance.example_instance (remote-exec):   Installing       : perl- [===   ] 4/8
+aws_instance.example_instance (remote-exec):   Installing       : perl- [===== ] 4/8
+aws_instance.example_instance (remote-exec):   Installing       : perl-Error-1   4/8
+aws_instance.example_instance (remote-exec):   Installing       : perl- [      ] 5/8
+aws_instance.example_instance (remote-exec):   Installing       : perl- [=     ] 5/8
+aws_instance.example_instance (remote-exec):   Installing       : perl- [===   ] 5/8
+aws_instance.example_instance (remote-exec):   Installing       : perl- [====  ] 5/8
+aws_instance.example_instance (remote-exec):   Installing       : perl- [===== ] 5/8
+aws_instance.example_instance (remote-exec):   Installing       : perl-TermRea   5/8
+aws_instance.example_instance (remote-exec):   Installing       : perl- [      ] 6/8
+aws_instance.example_instance (remote-exec):   Installing       : perl- [===   ] 6/8
+aws_instance.example_instance (remote-exec):   Installing       : perl- [===== ] 6/8
+aws_instance.example_instance (remote-exec):   Installing       : perl-lib-0.6   6/8
+aws_instance.example_instance (remote-exec):   Installing       : perl- [      ] 7/8
+aws_instance.example_instance (remote-exec):   Installing       : perl- [===   ] 7/8
+aws_instance.example_instance (remote-exec):   Installing       : perl- [===== ] 7/8
+aws_instance.example_instance (remote-exec):   Installing       : perl-Git-2.4   7/8
+aws_instance.example_instance (remote-exec):   Installing       : git-2 [      ] 8/8
+aws_instance.example_instance (remote-exec):   Installing       : git-2 [=     ] 8/8
+aws_instance.example_instance (remote-exec):   Installing       : git-2 [==    ] 8/8
+aws_instance.example_instance (remote-exec):   Installing       : git-2 [===   ] 8/8
+aws_instance.example_instance (remote-exec):   Installing       : git-2 [====  ] 8/8
+aws_instance.example_instance (remote-exec):   Installing       : git-2 [===== ] 8/8
+aws_instance.example_instance (remote-exec):   Installing       : git-2.40.1-1   8/8
+aws_instance.example_instance (remote-exec):   Running scriptlet: git-2.40.1-1   8/8
+aws_instance.example_instance (remote-exec):   Verifying        : perl-lib-0.6   1/8
+aws_instance.example_instance (remote-exec):   Verifying        : git-core-2.4   2/8
+aws_instance.example_instance (remote-exec):   Verifying        : perl-TermRea   3/8
+aws_instance.example_instance (remote-exec):   Verifying        : git-2.40.1-1   4/8
+aws_instance.example_instance (remote-exec):   Verifying        : perl-Git-2.4   5/8
+aws_instance.example_instance (remote-exec):   Verifying        : perl-Error-1   6/8
+aws_instance.example_instance (remote-exec):   Verifying        : perl-File-Fi   7/8
+aws_instance.example_instance (remote-exec):   Verifying        : git-core-doc   8/8
+
+aws_instance.example_instance (remote-exec): Installed:
+aws_instance.example_instance (remote-exec):   git-2.40.1-1.amzn2023.0.1.x86_64
+aws_instance.example_instance (remote-exec):   git-core-2.40.1-1.amzn2023.0.1.x86_64
+aws_instance.example_instance (remote-exec):   git-core-doc-2.40.1-1.amzn2023.0.1.noarch
+aws_instance.example_instance (remote-exec):   perl-Error-1:0.17029-5.amzn2023.0.2.noarch
+aws_instance.example_instance (remote-exec):   perl-File-Find-1.37-477.amzn2023.0.6.noarch
+aws_instance.example_instance (remote-exec):   perl-Git-2.40.1-1.amzn2023.0.1.noarch
+aws_instance.example_instance (remote-exec):   perl-TermReadKey-2.38-9.amzn2023.0.2.x86_64
+aws_instance.example_instance (remote-exec):   perl-lib-0.65-477.amzn2023.0.6.x86_64
+
+aws_instance.example_instance (remote-exec): Complete!
+aws_instance.example_instance (remote-exec): Cloning into 'invo'...
+aws_instance.example_instance (remote-exec): remote: Enumerating objects: 2653, done.
+aws_instance.example_instance (remote-exec): remote: Counting objects:   0% (1/613)
+aws_instance.example_instance (remote-exec): remote: Counting objects:   1% (7/613)
+aws_instance.example_instance (remote-exec): remote: Counting objects:   2% (13/613)
+aws_instance.example_instance (remote-exec): remote: Counting objects:   3% (19/613)
+aws_instance.example_instance (remote-exec): remote: Counting objects:   4% (25/613)
+aws_instance.example_instance (remote-exec): remote: Counting objects:   5% (31/613)
+aws_instance.example_instance (remote-exec): remote: Counting objects:   6% (37/613)
+aws_instance.example_instance (remote-exec): remote: Counting objects:   7% (43/613)
+aws_instance.example_instance (remote-exec): remote: Counting objects:   8% (50/613)
+aws_instance.example_instance (remote-exec): remote: Counting objects:   9% (56/613)
+aws_instance.example_instance (remote-exec): remote: Counting objects:  10% (62/613)
+aws_instance.example_instance (remote-exec): remote: Counting objects:  11% (68/613)
+aws_instance.example_instance (remote-exec): remote: Counting objects:  12% (74/613)
+aws_instance.example_instance (remote-exec): remote: Counting objects:  13% (80/613)
+aws_instance.example_instance (remote-exec): remote: Counting objects:  14% (86/613)
+aws_instance.example_instance (remote-exec): remote: Counting objects:  15% (92/613)
+aws_instance.example_instance (remote-exec): remote: Counting objects:  16% (99/613)
+aws_instance.example_instance (remote-exec): remote: Counting objects:  17% (105/613)
+aws_instance.example_instance (remote-exec): remote: Counting objects:  18% (111/613)
+aws_instance.example_instance (remote-exec): remote: Counting objects:  19% (117/613)
+aws_instance.example_instance (remote-exec): remote: Counting objects:  20% (123/613)
+aws_instance.example_instance (remote-exec): remote: Counting objects:  21% (129/613)
+aws_instance.example_instance (remote-exec): remote: Counting objects:  22% (135/613)
+aws_instance.example_instance (remote-exec): remote: Counting objects:  23% (141/613)
+aws_instance.example_instance (remote-exec): remote: Counting objects:  24% (148/613)
+aws_instance.example_instance (remote-exec): remote: Counting objects:  25% (154/613)
+aws_instance.example_instance (remote-exec): remote: Counting objects:  26% (160/613)
+aws_instance.example_instance (remote-exec): remote: Counting objects:  27% (166/613)
+aws_instance.example_instance (remote-exec): remote: Counting objects:  28% (172/613)
+aws_instance.example_instance (remote-exec): remote: Counting objects:  29% (178/613)
+aws_instance.example_instance (remote-exec): remote: Counting objects:  30% (184/613)
+aws_instance.example_instance (remote-exec): remote: Counting objects:  31% (191/613)
+aws_instance.example_instance (remote-exec): remote: Counting objects:  32% (197/613)
+aws_instance.example_instance (remote-exec): remote: Counting objects:  33% (203/613)
+aws_instance.example_instance (remote-exec): remote: Counting objects:  34% (209/613)
+aws_instance.example_instance (remote-exec): remote: Counting objects:  35% (215/613)
+aws_instance.example_instance (remote-exec): remote: Counting objects:  36% (221/613)
+aws_instance.example_instance (remote-exec): remote: Counting objects:  37% (227/613)
+aws_instance.example_instance (remote-exec): remote: Counting objects:  38% (233/613)
+aws_instance.example_instance (remote-exec): remote: Counting objects:  39% (240/613)
+aws_instance.example_instance (remote-exec): remote: Counting objects:  40% (246/613)
+aws_instance.example_instance (remote-exec): remote: Counting objects:  41% (252/613)
+aws_instance.example_instance (remote-exec): remote: Counting objects:  42% (258/613)
+aws_instance.example_instance (remote-exec): remote: Counting objects:  43% (264/613)
+aws_instance.example_instance (remote-exec): remote: Counting objects:  44% (270/613)
+aws_instance.example_instance (remote-exec): remote: Counting objects:  45% (276/613)
+aws_instance.example_instance (remote-exec): remote: Counting objects:  46% (282/613)
+aws_instance.example_instance (remote-exec): remote: Counting objects:  47% (289/613)
+aws_instance.example_instance (remote-exec): remote: Counting objects:  48% (295/613)
+aws_instance.example_instance (remote-exec): remote: Counting objects:  49% (301/613)
+aws_instance.example_instance (remote-exec): remote: Counting objects:  50% (307/613)
+aws_instance.example_instance (remote-exec): remote: Counting objects:  51% (313/613)
+aws_instance.example_instance (remote-exec): remote: Counting objects:  52% (319/613)
+aws_instance.example_instance (remote-exec): remote: Counting objects:  53% (325/613)
+aws_instance.example_instance (remote-exec): remote: Counting objects:  54% (332/613)
+aws_instance.example_instance (remote-exec): remote: Counting objects:  55% (338/613)
+aws_instance.example_instance (remote-exec): remote: Counting objects:  56% (344/613)
+aws_instance.example_instance (remote-exec): remote: Counting objects:  57% (350/613)
+aws_instance.example_instance (remote-exec): remote: Counting objects:  58% (356/613)
+aws_instance.example_instance (remote-exec): remote: Counting objects:  59% (362/613)
+aws_instance.example_instance (remote-exec): remote: Counting objects:  60% (368/613)
+aws_instance.example_instance (remote-exec): remote: Counting objects:  61% (374/613)
+aws_instance.example_instance (remote-exec): remote: Counting objects:  62% (381/613)
+aws_instance.example_instance (remote-exec): remote: Counting objects:  63% (387/613)
+aws_instance.example_instance (remote-exec): remote: Counting objects:  64% (393/613)
+aws_instance.example_instance (remote-exec): remote: Counting objects:  65% (399/613)
+aws_instance.example_instance (remote-exec): remote: Counting objects:  66% (405/613)
+aws_instance.example_instance (remote-exec): remote: Counting objects:  67% (411/613)
+aws_instance.example_instance (remote-exec): remote: Counting objects:  68% (417/613)
+aws_instance.example_instance (remote-exec): remote: Counting objects:  69% (423/613)
+aws_instance.example_instance (remote-exec): remote: Counting objects:  70% (430/613)
+aws_instance.example_instance (remote-exec): remote: Counting objects:  71% (436/613)
+aws_instance.example_instance (remote-exec): remote: Counting objects:  72% (442/613)
+aws_instance.example_instance (remote-exec): remote: Counting objects:  73% (448/613)
+aws_instance.example_instance (remote-exec): remote: Counting objects:  74% (454/613)
+aws_instance.example_instance (remote-exec): remote: Counting objects:  75% (460/613)
+aws_instance.example_instance (remote-exec): remote: Counting objects:  76% (466/613)
+aws_instance.example_instance (remote-exec): remote: Counting objects:  77% (473/613)
+aws_instance.example_instance (remote-exec): remote: Counting objects:  78% (479/613)
+aws_instance.example_instance (remote-exec): remote: Counting objects:  79% (485/613)
+aws_instance.example_instance (remote-exec): remote: Counting objects:  80% (491/613)
+aws_instance.example_instance (remote-exec): remote: Counting objects:  81% (497/613)
+aws_instance.example_instance (remote-exec): remote: Counting objects:  82% (503/613)
+aws_instance.example_instance (remote-exec): remote: Counting objects:  83% (509/613)
+aws_instance.example_instance (remote-exec): remote: Counting objects:  84% (515/613)
+aws_instance.example_instance (remote-exec): remote: Counting objects:  85% (522/613)
+aws_instance.example_instance (remote-exec): remote: Counting objects:  86% (528/613)
+aws_instance.example_instance (remote-exec): remote: Counting objects:  87% (534/613)
+aws_instance.example_instance (remote-exec): remote: Counting objects:  88% (540/613)
+aws_instance.example_instance (remote-exec): remote: Counting objects:  89% (546/613)
+aws_instance.example_instance (remote-exec): remote: Counting objects:  90% (552/613)
+aws_instance.example_instance (remote-exec): remote: Counting objects:  91% (558/613)
+aws_instance.example_instance (remote-exec): remote: Counting objects:  92% (564/613)
+aws_instance.example_instance (remote-exec): remote: Counting objects:  93% (571/613)
+aws_instance.example_instance (remote-exec): remote: Counting objects:  94% (577/613)
+aws_instance.example_instance (remote-exec): remote: Counting objects:  95% (583/613)
+aws_instance.example_instance (remote-exec): remote: Counting objects:  96% (589/613)
+aws_instance.example_instance (remote-exec): remote: Counting objects:  97% (595/613)
+aws_instance.example_instance (remote-exec): remote: Counting objects:  98% (601/613)
+aws_instance.example_instance (remote-exec): remote: Counting objects:  99% (607/613)
+aws_instance.example_instance (remote-exec): remote: Counting objects: 100% (613/613)
+aws_instance.example_instance (remote-exec): remote: Counting objects: 100% (613/613), done.
+aws_instance.example_instance (remote-exec): remote: Compressing objects:   0% (1/198)
+aws_instance.example_instance (remote-exec): remote: Compressing objects:   1% (2/198)
+aws_instance.example_instance (remote-exec): remote: Compressing objects:   2% (4/198)
+aws_instance.example_instance (remote-exec): remote: Compressing objects:   3% (6/198)
+aws_instance.example_instance (remote-exec): remote: Compressing objects:   4% (8/198)
+aws_instance.example_instance (remote-exec): remote: Compressing objects:   5% (10/198)
+aws_instance.example_instance (remote-exec): remote: Compressing objects:   6% (12/198)
+aws_instance.example_instance (remote-exec): remote: Compressing objects:   7% (14/198)
+aws_instance.example_instance (remote-exec): remote: Compressing objects:   8% (16/198)
+aws_instance.example_instance (remote-exec): remote: Compressing objects:   9% (18/198)
+aws_instance.example_instance (remote-exec): remote: Compressing objects:  10% (20/198)
+aws_instance.example_instance (remote-exec): remote: Compressing objects:  11% (22/198)
+aws_instance.example_instance (remote-exec): remote: Compressing objects:  12% (24/198)
+aws_instance.example_instance (remote-exec): remote: Compressing objects:  13% (26/198)
+aws_instance.example_instance (remote-exec): remote: Compressing objects:  14% (28/198)
+aws_instance.example_instance (remote-exec): remote: Compressing objects:  15% (30/198)
+aws_instance.example_instance (remote-exec): remote: Compressing objects:  16% (32/198)
+aws_instance.example_instance (remote-exec): remote: Compressing objects:  17% (34/198)
+aws_instance.example_instance (remote-exec): remote: Compressing objects:  18% (36/198)
+aws_instance.example_instance (remote-exec): remote: Compressing objects:  19% (38/198)
+aws_instance.example_instance (remote-exec): remote: Compressing objects:  20% (40/198)
+aws_instance.example_instance (remote-exec): remote: Compressing objects:  21% (42/198)
+aws_instance.example_instance (remote-exec): remote: Compressing objects:  22% (44/198)
+aws_instance.example_instance (remote-exec): remote: Compressing objects:  23% (46/198)
+aws_instance.example_instance (remote-exec): remote: Compressing objects:  24% (48/198)
+aws_instance.example_instance (remote-exec): remote: Compressing objects:  25% (50/198)
+aws_instance.example_instance (remote-exec): remote: Compressing objects:  26% (52/198)
+aws_instance.example_instance (remote-exec): remote: Compressing objects:  27% (54/198)
+aws_instance.example_instance (remote-exec): remote: Compressing objects:  28% (56/198)
+aws_instance.example_instance (remote-exec): remote: Compressing objects:  29% (58/198)
+aws_instance.example_instance (remote-exec): remote: Compressing objects:  30% (60/198)
+aws_instance.example_instance (remote-exec): remote: Compressing objects:  31% (62/198)
+aws_instance.example_instance (remote-exec): remote: Compressing objects:  32% (64/198)
+aws_instance.example_instance (remote-exec): remote: Compressing objects:  33% (66/198)
+aws_instance.example_instance (remote-exec): remote: Compressing objects:  34% (68/198)
+aws_instance.example_instance (remote-exec): remote: Compressing objects:  35% (70/198)
+aws_instance.example_instance (remote-exec): remote: Compressing objects:  36% (72/198)
+aws_instance.example_instance (remote-exec): remote: Compressing objects:  37% (74/198)
+aws_instance.example_instance (remote-exec): remote: Compressing objects:  38% (76/198)
+aws_instance.example_instance (remote-exec): remote: Compressing objects:  39% (78/198)
+aws_instance.example_instance (remote-exec): remote: Compressing objects:  40% (80/198)
+aws_instance.example_instance (remote-exec): remote: Compressing objects:  41% (82/198)
+aws_instance.example_instance (remote-exec): remote: Compressing objects:  42% (84/198)
+aws_instance.example_instance (remote-exec): remote: Compressing objects:  43% (86/198)
+aws_instance.example_instance (remote-exec): remote: Compressing objects:  44% (88/198)
+aws_instance.example_instance (remote-exec): remote: Compressing objects:  45% (90/198)
+aws_instance.example_instance (remote-exec): remote: Compressing objects:  46% (92/198)
+aws_instance.example_instance (remote-exec): remote: Compressing objects:  47% (94/198)
+aws_instance.example_instance (remote-exec): remote: Compressing objects:  48% (96/198)
+aws_instance.example_instance (remote-exec): remote: Compressing objects:  49% (98/198)
+aws_instance.example_instance (remote-exec): remote: Compressing objects:  50% (99/198)
+aws_instance.example_instance (remote-exec): remote: Compressing objects:  51% (101/198)
+aws_instance.example_instance (remote-exec): remote: Compressing objects:  52% (103/198)
+aws_instance.example_instance (remote-exec): remote: Compressing objects:  53% (105/198)
+aws_instance.example_instance (remote-exec): remote: Compressing objects:  54% (107/198)
+aws_instance.example_instance (remote-exec): remote: Compressing objects:  55% (109/198)
+aws_instance.example_instance (remote-exec): remote: Compressing objects:  56% (111/198)
+aws_instance.example_instance (remote-exec): remote: Compressing objects:  57% (113/198)
+aws_instance.example_instance (remote-exec): remote: Compressing objects:  58% (115/198)
+aws_instance.example_instance (remote-exec): remote: Compressing objects:  59% (117/198)
+aws_instance.example_instance (remote-exec): remote: Compressing objects:  60% (119/198)
+aws_instance.example_instance (remote-exec): remote: Compressing objects:  61% (121/198)
+aws_instance.example_instance (remote-exec): remote: Compressing objects:  62% (123/198)
+aws_instance.example_instance (remote-exec): remote: Compressing objects:  63% (125/198)
+aws_instance.example_instance (remote-exec): remote: Compressing objects:  64% (127/198)
+aws_instance.example_instance (remote-exec): remote: Compressing objects:  65% (129/198)
+aws_instance.example_instance (remote-exec): remote: Compressing objects:  66% (131/198)
+aws_instance.example_instance (remote-exec): remote: Compressing objects:  67% (133/198)
+aws_instance.example_instance (remote-exec): remote: Compressing objects:  68% (135/198)
+aws_instance.example_instance (remote-exec): remote: Compressing objects:  69% (137/198)
+aws_instance.example_instance (remote-exec): remote: Compressing objects:  70% (139/198)
+aws_instance.example_instance (remote-exec): remote: Compressing objects:  71% (141/198)
+aws_instance.example_instance (remote-exec): remote: Compressing objects:  72% (143/198)
+aws_instance.example_instance (remote-exec): remote: Compressing objects:  73% (145/198)
+aws_instance.example_instance (remote-exec): remote: Compressing objects:  74% (147/198)
+aws_instance.example_instance (remote-exec): remote: Compressing objects:  75% (149/198)
+aws_instance.example_instance (remote-exec): remote: Compressing objects:  76% (151/198)
+aws_instance.example_instance (remote-exec): remote: Compressing objects:  77% (153/198)
+aws_instance.example_instance (remote-exec): remote: Compressing objects:  78% (155/198)
+aws_instance.example_instance (remote-exec): remote: Compressing objects:  79% (157/198)
+aws_instance.example_instance (remote-exec): remote: Compressing objects:  80% (159/198)
+aws_instance.example_instance (remote-exec): remote: Compressing objects:  81% (161/198)
+aws_instance.example_instance (remote-exec): remote: Compressing objects:  82% (163/198)
+aws_instance.example_instance (remote-exec): remote: Compressing objects:  83% (165/198)
+aws_instance.example_instance (remote-exec): remote: Compressing objects:  84% (167/198)
+aws_instance.example_instance (remote-exec): remote: Compressing objects:  85% (169/198)
+aws_instance.example_instance (remote-exec): remote: Compressing objects:  86% (171/198)
+aws_instance.example_instance (remote-exec): remote: Compressing objects:  87% (173/198)
+aws_instance.example_instance (remote-exec): remote: Compressing objects:  88% (175/198)
+aws_instance.example_instance (remote-exec): remote: Compressing objects:  89% (177/198)
+aws_instance.example_instance (remote-exec): remote: Compressing objects:  90% (179/198)
+aws_instance.example_instance (remote-exec): remote: Compressing objects:  91% (181/198)
+aws_instance.example_instance (remote-exec): remote: Compressing objects:  92% (183/198)
+aws_instance.example_instance (remote-exec): remote: Compressing objects:  93% (185/198)
+aws_instance.example_instance (remote-exec): remote: Compressing objects:  94% (187/198)
+aws_instance.example_instance (remote-exec): remote: Compressing objects:  95% (189/198)
+aws_instance.example_instance (remote-exec): remote: Compressing objects:  96% (191/198)
+aws_instance.example_instance (remote-exec): remote: Compressing objects:  97% (193/198)
+aws_instance.example_instance (remote-exec): remote: Compressing objects:  98% (195/198)
+aws_instance.example_instance (remote-exec): remote: Compressing objects:  99% (197/198)
+aws_instance.example_instance (remote-exec): remote: Compressing objects: 100% (198/198)
+aws_instance.example_instance (remote-exec): remote: Compressing objects: 100% (198/198), done.
+aws_instance.example_instance (remote-exec): Receiving objects:   0% (1/2653)
+aws_instance.example_instance (remote-exec): Receiving objects:   1% (27/2653)
+aws_instance.example_instance (remote-exec): Receiving objects:   2% (54/2653)
+aws_instance.example_instance (remote-exec): Receiving objects:   3% (80/2653)
+aws_instance.example_instance (remote-exec): Receiving objects:   4% (107/2653)
+aws_instance.example_instance (remote-exec): Receiving objects:   5% (133/2653)
+aws_instance.example_instance (remote-exec): Receiving objects:   6% (160/2653)
+aws_instance.example_instance (remote-exec): Receiving objects:   7% (186/2653)
+aws_instance.example_instance (remote-exec): Receiving objects:   8% (213/2653)
+aws_instance.example_instance (remote-exec): Receiving objects:   9% (239/2653)
+aws_instance.example_instance (remote-exec): Receiving objects:  10% (266/2653)
+aws_instance.example_instance (remote-exec): Receiving objects:  11% (292/2653)
+aws_instance.example_instance (remote-exec): Receiving objects:  12% (319/2653)
+aws_instance.example_instance (remote-exec): Receiving objects:  13% (345/2653)
+aws_instance.example_instance (remote-exec): Receiving objects:  14% (372/2653)
+aws_instance.example_instance (remote-exec): Receiving objects:  15% (398/2653)
+aws_instance.example_instance (remote-exec): Receiving objects:  16% (425/2653)
+aws_instance.example_instance (remote-exec): Receiving objects:  17% (452/2653)
+aws_instance.example_instance (remote-exec): Receiving objects:  18% (478/2653)
+aws_instance.example_instance (remote-exec): Receiving objects:  19% (505/2653)
+aws_instance.example_instance (remote-exec): Receiving objects:  20% (531/2653)
+aws_instance.example_instance (remote-exec): Receiving objects:  21% (558/2653)
+aws_instance.example_instance (remote-exec): Receiving objects:  22% (584/2653)
+aws_instance.example_instance (remote-exec): Receiving objects:  23% (611/2653)
+aws_instance.example_instance (remote-exec): Receiving objects:  24% (637/2653)
+aws_instance.example_instance (remote-exec): Receiving objects:  25% (664/2653)
+aws_instance.example_instance (remote-exec): Receiving objects:  26% (690/2653)
+aws_instance.example_instance (remote-exec): Receiving objects:  27% (717/2653)
+aws_instance.example_instance (remote-exec): Receiving objects:  28% (743/2653)
+aws_instance.example_instance (remote-exec): Receiving objects:  29% (770/2653)
+aws_instance.example_instance (remote-exec): Receiving objects:  30% (796/2653)
+aws_instance.example_instance (remote-exec): Receiving objects:  31% (823/2653)
+aws_instance.example_instance (remote-exec): Receiving objects:  32% (849/2653)
+aws_instance.example_instance (remote-exec): Receiving objects:  33% (876/2653)
+aws_instance.example_instance (remote-exec): Receiving objects:  34% (903/2653)
+aws_instance.example_instance (remote-exec): Receiving objects:  35% (929/2653)
+aws_instance.example_instance (remote-exec): Receiving objects:  36% (956/2653)
+aws_instance.example_instance (remote-exec): Receiving objects:  37% (982/2653)
+aws_instance.example_instance (remote-exec): Receiving objects:  38% (1009/2653)
+aws_instance.example_instance (remote-exec): Receiving objects:  39% (1035/2653)
+aws_instance.example_instance (remote-exec): Receiving objects:  40% (1062/2653)
+aws_instance.example_instance (remote-exec): Receiving objects:  41% (1088/2653)
+aws_instance.example_instance (remote-exec): Receiving objects:  42% (1115/2653)
+aws_instance.example_instance (remote-exec): Receiving objects:  43% (1141/2653)
+aws_instance.example_instance (remote-exec): Receiving objects:  44% (1168/2653)
+aws_instance.example_instance (remote-exec): Receiving objects:  45% (1194/2653)
+aws_instance.example_instance (remote-exec): Receiving objects:  46% (1221/2653)
+aws_instance.example_instance (remote-exec): Receiving objects:  47% (1247/2653)
+aws_instance.example_instance (remote-exec): Receiving objects:  48% (1274/2653)
+aws_instance.example_instance (remote-exec): Receiving objects:  49% (1300/2653)
+aws_instance.example_instance (remote-exec): Receiving objects:  50% (1327/2653)
+aws_instance.example_instance (remote-exec): Receiving objects:  51% (1354/2653)
+aws_instance.example_instance (remote-exec): Receiving objects:  52% (1380/2653)
+aws_instance.example_instance (remote-exec): Receiving objects:  53% (1407/2653)
+aws_instance.example_instance (remote-exec): Receiving objects:  54% (1433/2653)
+aws_instance.example_instance (remote-exec): Receiving objects:  55% (1460/2653)
+aws_instance.example_instance (remote-exec): Receiving objects:  56% (1486/2653)
+aws_instance.example_instance (remote-exec): Receiving objects:  57% (1513/2653)
+aws_instance.example_instance (remote-exec): Receiving objects:  58% (1539/2653)
+aws_instance.example_instance (remote-exec): Receiving objects:  59% (1566/2653)
+aws_instance.example_instance (remote-exec): Receiving objects:  60% (1592/2653)
+aws_instance.example_instance (remote-exec): Receiving objects:  61% (1619/2653)
+aws_instance.example_instance (remote-exec): Receiving objects:  62% (1645/2653)
+aws_instance.example_instance (remote-exec): Receiving objects:  63% (1672/2653)
+aws_instance.example_instance (remote-exec): Receiving objects:  64% (1698/2653)
+aws_instance.example_instance (remote-exec): Receiving objects:  65% (1725/2653)
+aws_instance.example_instance (remote-exec): Receiving objects:  66% (1751/2653)
+aws_instance.example_instance (remote-exec): Receiving objects:  67% (1778/2653)
+aws_instance.example_instance (remote-exec): Receiving objects:  68% (1805/2653)
+aws_instance.example_instance (remote-exec): Receiving objects:  69% (1831/2653)
+aws_instance.example_instance (remote-exec): Receiving objects:  70% (1858/2653)
+aws_instance.example_instance (remote-exec): Receiving objects:  71% (1884/2653)
+aws_instance.example_instance (remote-exec): Receiving objects:  72% (1911/2653)
+aws_instance.example_instance (remote-exec): Receiving objects:  73% (1937/2653)
+aws_instance.example_instance (remote-exec): Receiving objects:  74% (1964/2653)
+aws_instance.example_instance (remote-exec): Receiving objects:  75% (1990/2653)
+aws_instance.example_instance (remote-exec): Receiving objects:  76% (2017/2653)
+aws_instance.example_instance (remote-exec): Receiving objects:  77% (2043/2653)
+aws_instance.example_instance (remote-exec): Receiving objects:  78% (2070/2653)
+aws_instance.example_instance (remote-exec): Receiving objects:  79% (2096/2653)
+aws_instance.example_instance (remote-exec): Receiving objects:  80% (2123/2653)
+aws_instance.example_instance (remote-exec): Receiving objects:  81% (2149/2653)
+aws_instance.example_instance (remote-exec): Receiving objects:  82% (2176/2653)
+aws_instance.example_instance (remote-exec): Receiving objects:  83% (2202/2653)
+aws_instance.example_instance (remote-exec): Receiving objects:  84% (2229/2653)
+aws_instance.example_instance (remote-exec): Receiving objects:  85% (2256/2653)
+aws_instance.example_instance (remote-exec): Receiving objects:  86% (2282/2653)
+aws_instance.example_instance (remote-exec): Receiving objects:  87% (2309/2653)
+aws_instance.example_instance (remote-exec): Receiving objects:  88% (2335/2653)
+aws_instance.example_instance (remote-exec): Receiving objects:  89% (2362/2653)
+aws_instance.example_instance (remote-exec): remote: Total 2653 (delta 465), reused 460 (delta 407), pack-reused 2040
+aws_instance.example_instance (remote-exec): Receiving objects:  90% (2388/2653)
+aws_instance.example_instance (remote-exec): Receiving objects:  91% (2415/2653)
+aws_instance.example_instance (remote-exec): Receiving objects:  92% (2441/2653)
+aws_instance.example_instance (remote-exec): Receiving objects:  93% (2468/2653)
+aws_instance.example_instance (remote-exec): Receiving objects:  94% (2494/2653)
+aws_instance.example_instance (remote-exec): Receiving objects:  95% (2521/2653)
+aws_instance.example_instance (remote-exec): Receiving objects:  96% (2547/2653)
+aws_instance.example_instance (remote-exec): Receiving objects:  97% (2574/2653)
+aws_instance.example_instance (remote-exec): Receiving objects:  98% (2600/2653)
+aws_instance.example_instance (remote-exec): Receiving objects:  99% (2627/2653)
+aws_instance.example_instance (remote-exec): Receiving objects: 100% (2653/2653)
+aws_instance.example_instance (remote-exec): Receiving objects: 100% (2653/2653), 833.78 KiB | 8.78 MiB/s, done.
+aws_instance.example_instance (remote-exec): Resolving deltas:   0% (0/1495)
+aws_instance.example_instance (remote-exec): Resolving deltas:   1% (15/1495)
+aws_instance.example_instance (remote-exec): Resolving deltas:   2% (30/1495)
+aws_instance.example_instance (remote-exec): Resolving deltas:   3% (45/1495)
+aws_instance.example_instance (remote-exec): Resolving deltas:   4% (60/1495)
+aws_instance.example_instance (remote-exec): Resolving deltas:   5% (75/1495)
+aws_instance.example_instance (remote-exec): Resolving deltas:   6% (90/1495)
+aws_instance.example_instance (remote-exec): Resolving deltas:   7% (105/1495)
+aws_instance.example_instance (remote-exec): Resolving deltas:   8% (120/1495)
+aws_instance.example_instance (remote-exec): Resolving deltas:   9% (135/1495)
+aws_instance.example_instance (remote-exec): Resolving deltas:  10% (150/1495)
+aws_instance.example_instance (remote-exec): Resolving deltas:  11% (165/1495)
+aws_instance.example_instance (remote-exec): Resolving deltas:  12% (180/1495)
+aws_instance.example_instance (remote-exec): Resolving deltas:  13% (195/1495)
+aws_instance.example_instance (remote-exec): Resolving deltas:  14% (210/1495)
+aws_instance.example_instance (remote-exec): Resolving deltas:  15% (225/1495)
+aws_instance.example_instance (remote-exec): Resolving deltas:  16% (240/1495)
+aws_instance.example_instance (remote-exec): Resolving deltas:  17% (255/1495)
+aws_instance.example_instance (remote-exec): Resolving deltas:  18% (270/1495)
+aws_instance.example_instance (remote-exec): Resolving deltas:  19% (285/1495)
+aws_instance.example_instance (remote-exec): Resolving deltas:  20% (299/1495)
+aws_instance.example_instance (remote-exec): Resolving deltas:  21% (314/1495)
+aws_instance.example_instance (remote-exec): Resolving deltas:  22% (329/1495)
+aws_instance.example_instance (remote-exec): Resolving deltas:  23% (344/1495)
+aws_instance.example_instance (remote-exec): Resolving deltas:  24% (359/1495)
+aws_instance.example_instance (remote-exec): Resolving deltas:  25% (374/1495)
+aws_instance.example_instance (remote-exec): Resolving deltas:  26% (389/1495)
+aws_instance.example_instance (remote-exec): Resolving deltas:  27% (404/1495)
+aws_instance.example_instance (remote-exec): Resolving deltas:  28% (419/1495)
+aws_instance.example_instance (remote-exec): Resolving deltas:  29% (434/1495)
+aws_instance.example_instance (remote-exec): Resolving deltas:  30% (449/1495)
+aws_instance.example_instance (remote-exec): Resolving deltas:  31% (464/1495)
+aws_instance.example_instance (remote-exec): Resolving deltas:  32% (479/1495)
+aws_instance.example_instance (remote-exec): Resolving deltas:  33% (494/1495)
+aws_instance.example_instance (remote-exec): Resolving deltas:  34% (509/1495)
+aws_instance.example_instance (remote-exec): Resolving deltas:  35% (524/1495)
+aws_instance.example_instance (remote-exec): Resolving deltas:  36% (539/1495)
+aws_instance.example_instance (remote-exec): Resolving deltas:  37% (554/1495)
+aws_instance.example_instance (remote-exec): Resolving deltas:  38% (569/1495)
+aws_instance.example_instance (remote-exec): Resolving deltas:  39% (584/1495)
+aws_instance.example_instance (remote-exec): Resolving deltas:  40% (598/1495)
+aws_instance.example_instance (remote-exec): Resolving deltas:  41% (613/1495)
+aws_instance.example_instance (remote-exec): Resolving deltas:  42% (628/1495)
+aws_instance.example_instance (remote-exec): Resolving deltas:  43% (643/1495)
+aws_instance.example_instance (remote-exec): Resolving deltas:  44% (658/1495)
+aws_instance.example_instance (remote-exec): Resolving deltas:  45% (673/1495)
+aws_instance.example_instance (remote-exec): Resolving deltas:  46% (688/1495)
+aws_instance.example_instance (remote-exec): Resolving deltas:  47% (703/1495)
+aws_instance.example_instance (remote-exec): Resolving deltas:  48% (718/1495)
+aws_instance.example_instance (remote-exec): Resolving deltas:  49% (733/1495)
+aws_instance.example_instance (remote-exec): Resolving deltas:  50% (748/1495)
+aws_instance.example_instance (remote-exec): Resolving deltas:  51% (763/1495)
+aws_instance.example_instance (remote-exec): Resolving deltas:  52% (778/1495)
+aws_instance.example_instance (remote-exec): Resolving deltas:  53% (793/1495)
+aws_instance.example_instance (remote-exec): Resolving deltas:  54% (808/1495)
+aws_instance.example_instance (remote-exec): Resolving deltas:  55% (823/1495)
+aws_instance.example_instance (remote-exec): Resolving deltas:  56% (838/1495)
+aws_instance.example_instance (remote-exec): Resolving deltas:  57% (853/1495)
+aws_instance.example_instance (remote-exec): Resolving deltas:  58% (868/1495)
+aws_instance.example_instance (remote-exec): Resolving deltas:  59% (883/1495)
+aws_instance.example_instance (remote-exec): Resolving deltas:  60% (897/1495)
+aws_instance.example_instance (remote-exec): Resolving deltas:  61% (912/1495)
+aws_instance.example_instance (remote-exec): Resolving deltas:  62% (927/1495)
+aws_instance.example_instance (remote-exec): Resolving deltas:  63% (942/1495)
+aws_instance.example_instance (remote-exec): Resolving deltas:  64% (957/1495)
+aws_instance.example_instance (remote-exec): Resolving deltas:  65% (972/1495)
+aws_instance.example_instance (remote-exec): Resolving deltas:  66% (987/1495)
+aws_instance.example_instance (remote-exec): Resolving deltas:  67% (1002/1495)
+aws_instance.example_instance (remote-exec): Resolving deltas:  68% (1017/1495)
+aws_instance.example_instance (remote-exec): Resolving deltas:  69% (1032/1495)
+aws_instance.example_instance (remote-exec): Resolving deltas:  70% (1047/1495)
+aws_instance.example_instance (remote-exec): Resolving deltas:  71% (1062/1495)
+aws_instance.example_instance (remote-exec): Resolving deltas:  72% (1077/1495)
+aws_instance.example_instance (remote-exec): Resolving deltas:  73% (1092/1495)
+aws_instance.example_instance (remote-exec): Resolving deltas:  74% (1107/1495)
+aws_instance.example_instance (remote-exec): Resolving deltas:  75% (1122/1495)
+aws_instance.example_instance (remote-exec): Resolving deltas:  76% (1137/1495)
+aws_instance.example_instance (remote-exec): Resolving deltas:  77% (1152/1495)
+aws_instance.example_instance (remote-exec): Resolving deltas:  78% (1167/1495)
+aws_instance.example_instance (remote-exec): Resolving deltas:  79% (1182/1495)
+aws_instance.example_instance (remote-exec): Resolving deltas:  80% (1196/1495)
+aws_instance.example_instance (remote-exec): Resolving deltas:  81% (1211/1495)
+aws_instance.example_instance (remote-exec): Resolving deltas:  82% (1226/1495)
+aws_instance.example_instance (remote-exec): Resolving deltas:  83% (1241/1495)
+aws_instance.example_instance (remote-exec): Resolving deltas:  84% (1256/1495)
+aws_instance.example_instance (remote-exec): Resolving deltas:  85% (1271/1495)
+aws_instance.example_instance (remote-exec): Resolving deltas:  86% (1286/1495)
+aws_instance.example_instance (remote-exec): Resolving deltas:  87% (1301/1495)
+aws_instance.example_instance (remote-exec): Resolving deltas:  88% (1316/1495)
+aws_instance.example_instance (remote-exec): Resolving deltas:  89% (1331/1495)
+aws_instance.example_instance (remote-exec): Resolving deltas:  90% (1346/1495)
+aws_instance.example_instance (remote-exec): Resolving deltas:  91% (1361/1495)
+aws_instance.example_instance (remote-exec): Resolving deltas:  92% (1376/1495)
+aws_instance.example_instance (remote-exec): Resolving deltas:  93% (1391/1495)
+aws_instance.example_instance (remote-exec): Resolving deltas:  94% (1406/1495)
+aws_instance.example_instance (remote-exec): Resolving deltas:  95% (1421/1495)
+aws_instance.example_instance (remote-exec): Resolving deltas:  96% (1436/1495)
+aws_instance.example_instance (remote-exec): Resolving deltas:  97% (1451/1495)
+aws_instance.example_instance (remote-exec): Resolving deltas:  98% (1466/1495)
+aws_instance.example_instance (remote-exec): Resolving deltas:  99% (1481/1495)
+aws_instance.example_instance (remote-exec): Resolving deltas: 100% (1495/1495)
+aws_instance.example_instance (remote-exec): Resolving deltas: 100% (1495/1495), done.
+aws_instance.example_instance (remote-exec): Last metadata expiration check: 0:00:09 ago on Mon Mar  4 12:46:01 2024.
+aws_instance.example_instance (remote-exec): Dependencies resolved.
+aws_instance.example_instance (remote-exec): ========================================
+aws_instance.example_instance (remote-exec):  Package    Arch   Version
+aws_instance.example_instance (remote-exec):                       Repository   Size
+aws_instance.example_instance (remote-exec): ========================================
+aws_instance.example_instance (remote-exec): Installing:
+aws_instance.example_instance (remote-exec):  docker     x86_64 24.0.5-1.amzn2023.0.3
+aws_instance.example_instance (remote-exec):                       amazonlinux  42 M
+aws_instance.example_instance (remote-exec): Installing dependencies:
+aws_instance.example_instance (remote-exec):  containerd x86_64 1.7.11-1.amzn2023.0.1
+aws_instance.example_instance (remote-exec):                       amazonlinux  35 M
+aws_instance.example_instance (remote-exec):  iptables-libs
+aws_instance.example_instance (remote-exec):             x86_64 1.8.8-3.amzn2023.0.2
+aws_instance.example_instance (remote-exec):                       amazonlinux 401 k
+aws_instance.example_instance (remote-exec):  iptables-nft
+aws_instance.example_instance (remote-exec):             x86_64 1.8.8-3.amzn2023.0.2
+aws_instance.example_instance (remote-exec):                       amazonlinux 183 k
+aws_instance.example_instance (remote-exec):  libcgroup  x86_64 3.0-1.amzn2023.0.1
+aws_instance.example_instance (remote-exec):                       amazonlinux  75 k
+aws_instance.example_instance (remote-exec):  libnetfilter_conntrack
+aws_instance.example_instance (remote-exec):             x86_64 1.0.8-2.amzn2023.0.2
+aws_instance.example_instance (remote-exec):                       amazonlinux  58 k
+aws_instance.example_instance (remote-exec):  libnfnetlink
+aws_instance.example_instance (remote-exec):             x86_64 1.0.1-19.amzn2023.0.2
+aws_instance.example_instance (remote-exec):                       amazonlinux  30 k
+aws_instance.example_instance (remote-exec):  libnftnl   x86_64 1.2.2-2.amzn2023.0.2
+aws_instance.example_instance (remote-exec):                       amazonlinux  84 k
+aws_instance.example_instance (remote-exec):  pigz       x86_64 2.5-1.amzn2023.0.3
+aws_instance.example_instance (remote-exec):                       amazonlinux  83 k
+aws_instance.example_instance (remote-exec):  runc       x86_64 1.1.11-1.amzn2023.0.1
+aws_instance.example_instance (remote-exec):                       amazonlinux 3.0 M
+
+aws_instance.example_instance (remote-exec): Transaction Summary
+aws_instance.example_instance (remote-exec): ========================================
+aws_instance.example_instance (remote-exec): Install  10 Packages
+
+aws_instance.example_instance (remote-exec): Total download size: 81 M
+aws_instance.example_instance (remote-exec): Installed size: 309 M
+aws_instance.example_instance (remote-exec): Downloading Packages:
+aws_instance.example_instance (remote-exec):         ---  B/s |   0  B     --:-- ETA
+aws_instance.example_instance (remote-exec): (1/10): ---  B/s |   0  B     --:-- ETA
+aws_instance.example_instance (remote-exec): (1/10): 649 kB/s |  58 kB     00:00
+aws_instance.example_instance (remote-exec): (2-3/10 647 kB/s |  58 kB     02:08 ETA
+aws_instance.example_instance (remote-exec): (2-4/10 3.5 MB/s |  15 MB     00:18 ETA
+aws_instance.example_instance (remote-exec): (2/10): 8.9 MB/s | 3.0 MB     00:00
+aws_instance.example_instance (remote-exec): (3-4/10 3.6 MB/s |  15 MB     00:18 ETA
+aws_instance.example_instance (remote-exec): (3/10): 5.7 MB/s | 183 kB     00:00
+aws_instance.example_instance (remote-exec): (4-5/10 4.0 MB/s |  17 MB     00:16 ETA
+aws_instance.example_instance (remote-exec): (4/10): 3.4 MB/s |  83 kB     00:00
+aws_instance.example_instance (remote-exec): (5-6/10 4.2 MB/s |  19 MB     00:14 ETA
+aws_instance.example_instance (remote-exec): (5/10): 1.2 MB/s |  30 kB     00:00
+aws_instance.example_instance (remote-exec): (6-7/10 4.4 MB/s |  20 MB     00:13 ETA
+aws_instance.example_instance (remote-exec): (6/10): 7.5 MB/s | 401 kB     00:00
+aws_instance.example_instance (remote-exec): (7-8/10 4.9 MB/s |  22 MB     00:12 ETA
+aws_instance.example_instance (remote-exec): (7/10): 2.4 MB/s |  75 kB     00:00
+aws_instance.example_instance: Still creating... [1m0s elapsed]
+aws_instance.example_instance (remote-exec): (8-9/10 5.2 MB/s |  24 MB     00:10 ETA
+aws_instance.example_instance (remote-exec): (8/10): 2.2 MB/s |  84 kB     00:00
+aws_instance.example_instance (remote-exec): (9-10/1 5.6 MB/s |  26 MB     00:09 ETA
+aws_instance.example_instance (remote-exec): (9-10/1 8.2 MB/s |  41 MB     00:04 ETA
+aws_instance.example_instance (remote-exec): (9-10/1  11 MB/s |  56 MB     00:02 ETA
+aws_instance.example_instance (remote-exec): (9-10/1  13 MB/s |  70 MB     00:00 ETA
+aws_instance.example_instance (remote-exec): (9/10):  17 MB/s |  35 MB     00:02
+aws_instance.example_instance (remote-exec): (10/10)  12 MB/s |  72 MB     00:00 ETA
+aws_instance.example_instance (remote-exec): (10/10)  17 MB/s |  42 MB     00:02
+aws_instance.example_instance (remote-exec): ----------------------------------------
+aws_instance.example_instance (remote-exec): Total    31 MB/s |  81 MB     00:02
+aws_instance.example_instance (remote-exec): Running transaction check
+aws_instance.example_instance (remote-exec): Transaction check succeeded.
+aws_instance.example_instance (remote-exec): Running transaction test
+aws_instance.example_instance (remote-exec): Transaction test succeeded.
+aws_instance.example_instance (remote-exec): Running transaction
+aws_instance.example_instance (remote-exec):   Preparing        :  [=          ] 1/1
+aws_instance.example_instance (remote-exec):   Preparing        :  [==         ] 1/1
+aws_instance.example_instance (remote-exec):   Preparing        :  [===        ] 1/1
+aws_instance.example_instance (remote-exec):   Preparing        :  [====       ] 1/1
+aws_instance.example_instance (remote-exec):   Preparing        :  [=====      ] 1/1
+aws_instance.example_instance (remote-exec):   Preparing        :  [======     ] 1/1
+aws_instance.example_instance (remote-exec):   Preparing        :  [=======    ] 1/1
+aws_instance.example_instance (remote-exec):   Preparing        :  [========   ] 1/1
+aws_instance.example_instance (remote-exec):   Preparing        :  [=========  ] 1/1
+aws_instance.example_instance (remote-exec):   Preparing        :                1/1
+
+aws_instance.example_instance (remote-exec):   Installing       : runc   1/10
+aws_instance.example_instance (remote-exec):   Installing       : runc-1.1.1    1/10
+aws_instance.example_instance (remote-exec):   Installing       : cont   2/10
+aws_instance.example_instance (remote-exec):   Installing       : containerd    2/10
+aws_instance.example_instance (remote-exec):   Running scriptlet: containerd    2/10
+aws_instance.example_instance (remote-exec):   Installing       : libn   3/10
+aws_instance.example_instance (remote-exec):   Installing       : libnftnl-1    3/10
+aws_instance.example_instance (remote-exec):   Installing       : libc   4/10
+aws_instance.example_instance (remote-exec):   Installing       : libcgroup-    4/10
+aws_instance.example_instance (remote-exec):   Installing       : libn   5/10
+aws_instance.example_instance (remote-exec):   Installing       : libnfnetli    5/10
+aws_instance.example_instance (remote-exec):   Installing       : libn   6/10
+aws_instance.example_instance (remote-exec):   Installing       : libnetfilt    6/10
+aws_instance.example_instance (remote-exec):   Installing       : ipta   7/10
+aws_instance.example_instance (remote-exec):   Installing       : iptables-l    7/10
+aws_instance.example_instance (remote-exec):   Installing       : ipta   8/10
+aws_instance.example_instance (remote-exec):   Installing       : iptables-n    8/10
+aws_instance.example_instance (remote-exec):   Running scriptlet: iptables-n    8/10
+aws_instance.example_instance (remote-exec):   Installing       : pigz   9/10
+aws_instance.example_instance (remote-exec):   Installing       : pigz-2.5-1    9/10
+aws_instance.example_instance (remote-exec):   Running scriptlet: docker-24.   10/10
+aws_instance.example_instance: Still creating... [1m10s elapsed]
+aws_instance.example_instance (remote-exec):   Installing       : dock  10/10
+aws_instance.example_instance (remote-exec):   Installing       : docker-24.   10/10
+aws_instance.example_instance (remote-exec):   Running scriptlet: docker-24.   10/10
+aws_instance.example_instance (remote-exec): Created symlink /etc/systemd/system/sockets.target.wants/docker.socket → /usr/lib/systemd/system/docker.socket.
+
+aws_instance.example_instance (remote-exec):   Verifying        : containerd    1/10
+aws_instance.example_instance (remote-exec):   Verifying        : libnetfilt    2/10
+aws_instance.example_instance (remote-exec):   Verifying        : docker-24.    3/10
+aws_instance.example_instance (remote-exec):   Verifying        : runc-1.1.1    4/10
+aws_instance.example_instance (remote-exec):   Verifying        : iptables-n    5/10
+aws_instance.example_instance (remote-exec):   Verifying        : pigz-2.5-1    6/10
+aws_instance.example_instance (remote-exec):   Verifying        : libnfnetli    7/10
+aws_instance.example_instance (remote-exec):   Verifying        : iptables-l    8/10
+aws_instance.example_instance (remote-exec):   Verifying        : libcgroup-    9/10
+aws_instance.example_instance (remote-exec):   Verifying        : libnftnl-1   10/10
+
+aws_instance.example_instance (remote-exec): Installed:
+aws_instance.example_instance (remote-exec):   containerd-1.7.11-1.amzn2023.0.1.x86_64
+aws_instance.example_instance (remote-exec):   docker-24.0.5-1.amzn2023.0.3.x86_64
+aws_instance.example_instance (remote-exec):   iptables-libs-1.8.8-3.amzn2023.0.2.x86_64
+aws_instance.example_instance (remote-exec):   iptables-nft-1.8.8-3.amzn2023.0.2.x86_64
+aws_instance.example_instance (remote-exec):   libcgroup-3.0-1.amzn2023.0.1.x86_64
+aws_instance.example_instance (remote-exec):   libnetfilter_conntrack-1.0.8-2.amzn2023.0.2.x86_64
+aws_instance.example_instance (remote-exec):   libnfnetlink-1.0.1-19.amzn2023.0.2.x86_64
+aws_instance.example_instance (remote-exec):   libnftnl-1.2.2-2.amzn2023.0.2.x86_64
+aws_instance.example_instance (remote-exec):   pigz-2.5-1.amzn2023.0.3.x86_64
+aws_instance.example_instance (remote-exec):   runc-1.1.11-1.amzn2023.0.1.x86_64
+
+aws_instance.example_instance (remote-exec): Complete!
+aws_instance.example_instance (remote-exec): Last metadata expiration check: 0:00:27 ago on Mon Mar  4 12:46:01 2024.
+aws_instance.example_instance (remote-exec): Dependencies resolved.
+aws_instance.example_instance (remote-exec): Nothing to do.
+aws_instance.example_instance (remote-exec): Complete!
+aws_instance.example_instance (remote-exec): Last metadata expiration check: 0:00:28 ago on Mon Mar  4 12:46:01 2024.
+aws_instance.example_instance (remote-exec): Dependencies resolved.
+aws_instance.example_instance (remote-exec): ========================================
+aws_instance.example_instance (remote-exec):  Package    Arch   Version
+aws_instance.example_instance (remote-exec):                       Repository   Size
+aws_instance.example_instance (remote-exec): ========================================
+aws_instance.example_instance (remote-exec): Installing:
+aws_instance.example_instance (remote-exec):  mariadb105-server
+aws_instance.example_instance (remote-exec):             x86_64 3:10.5.23-1.amzn2023.0.1
+aws_instance.example_instance (remote-exec):                       amazonlinux  11 M
+aws_instance.example_instance (remote-exec): Installing dependencies:
+aws_instance.example_instance (remote-exec):  mariadb-connector-c
+aws_instance.example_instance (remote-exec):             x86_64 3.1.13-1.amzn2023.0.3
+aws_instance.example_instance (remote-exec):                       amazonlinux 196 k
+aws_instance.example_instance (remote-exec):  mariadb-connector-c-config
+aws_instance.example_instance (remote-exec):             noarch 3.1.13-1.amzn2023.0.3
+aws_instance.example_instance (remote-exec):                       amazonlinux 9.2 k
+aws_instance.example_instance (remote-exec):  mariadb105 x86_64 3:10.5.23-1.amzn2023.0.1
+aws_instance.example_instance (remote-exec):                       amazonlinux 1.6 M
+aws_instance.example_instance (remote-exec):  mariadb105-common
+aws_instance.example_instance (remote-exec):             x86_64 3:10.5.23-1.amzn2023.0.1
+aws_instance.example_instance (remote-exec):                       amazonlinux  30 k
+aws_instance.example_instance (remote-exec):  mariadb105-errmsg
+aws_instance.example_instance (remote-exec):             x86_64 3:10.5.23-1.amzn2023.0.1
+aws_instance.example_instance (remote-exec):                       amazonlinux 214 k
+aws_instance.example_instance (remote-exec):  mysql-selinux
+aws_instance.example_instance (remote-exec):             noarch 1.0.4-2.amzn2023.0.3
+aws_instance.example_instance (remote-exec):                       amazonlinux  36 k
+aws_instance.example_instance (remote-exec):  perl-B     x86_64 1.80-477.amzn2023.0.6
+aws_instance.example_instance (remote-exec):                       amazonlinux 179 k
+aws_instance.example_instance (remote-exec):  perl-DBD-MariaDB
+aws_instance.example_instance (remote-exec):             x86_64 1.22-1.amzn2023.0.4
+aws_instance.example_instance (remote-exec):                       amazonlinux 153 k
+aws_instance.example_instance (remote-exec):  perl-DBI   x86_64 1.643-7.amzn2023.0.3
+aws_instance.example_instance (remote-exec):                       amazonlinux 700 k
+aws_instance.example_instance (remote-exec):  perl-Data-Dumper
+aws_instance.example_instance (remote-exec):             x86_64 2.174-460.amzn2023.0.2
+aws_instance.example_instance (remote-exec):                       amazonlinux  55 k
+aws_instance.example_instance (remote-exec):  perl-File-Copy
+aws_instance.example_instance (remote-exec):             noarch 2.34-477.amzn2023.0.6
+aws_instance.example_instance (remote-exec):                       amazonlinux  20 k
+aws_instance.example_instance (remote-exec):  perl-FileHandle
+aws_instance.example_instance (remote-exec):             noarch 2.03-477.amzn2023.0.6
+aws_instance.example_instance (remote-exec):                       amazonlinux  16 k
+aws_instance.example_instance (remote-exec):  perl-Math-BigInt
+aws_instance.example_instance (remote-exec):             noarch 1:1.9998.18-458.amzn2023.0.2
+aws_instance.example_instance (remote-exec):                       amazonlinux 189 k
+aws_instance.example_instance (remote-exec):  perl-Math-Complex
+aws_instance.example_instance (remote-exec):             noarch 1.59-477.amzn2023.0.6
+aws_instance.example_instance (remote-exec):                       amazonlinux  47 k
+aws_instance.example_instance (remote-exec):  perl-Sys-Hostname
+aws_instance.example_instance (remote-exec):             x86_64 1.23-477.amzn2023.0.6
+aws_instance.example_instance (remote-exec):                       amazonlinux  18 k
+aws_instance.example_instance (remote-exec):  perl-base  noarch 2.27-477.amzn2023.0.6
+aws_instance.example_instance (remote-exec):                       amazonlinux  17 k
+aws_instance.example_instance (remote-exec): Installing weak dependencies:
+aws_instance.example_instance (remote-exec):  mariadb105-backup
+aws_instance.example_instance (remote-exec):             x86_64 3:10.5.23-1.amzn2023.0.1
+aws_instance.example_instance (remote-exec):                       amazonlinux 6.3 M
+aws_instance.example_instance (remote-exec):  mariadb105-cracklib-password-check
+aws_instance.example_instance (remote-exec):             x86_64 3:10.5.23-1.amzn2023.0.1
+aws_instance.example_instance (remote-exec):                       amazonlinux  16 k
+aws_instance.example_instance (remote-exec):  mariadb105-gssapi-server
+aws_instance.example_instance (remote-exec):             x86_64 3:10.5.23-1.amzn2023.0.1
+aws_instance.example_instance (remote-exec):                       amazonlinux  18 k
+aws_instance.example_instance (remote-exec):  mariadb105-server-utils
+aws_instance.example_instance (remote-exec):             x86_64 3:10.5.23-1.amzn2023.0.1
+aws_instance.example_instance (remote-exec):                       amazonlinux 216 k
+
+aws_instance.example_instance (remote-exec): Transaction Summary
+aws_instance.example_instance (remote-exec): ========================================
+aws_instance.example_instance (remote-exec): Install  21 Packages
+
+aws_instance.example_instance (remote-exec): Total download size: 20 M
+aws_instance.example_instance (remote-exec): Installed size: 117 M
+aws_instance.example_instance (remote-exec): Downloading Packages:
+aws_instance.example_instance (remote-exec):         ---  B/s |   0  B     --:-- ETA
+aws_instance.example_instance (remote-exec): (1/21): ---  B/s |   0  B     --:-- ETA
+aws_instance.example_instance (remote-exec): (1/21): 152 kB/s |  16 kB     00:00
+aws_instance.example_instance (remote-exec): (2-3/21 152 kB/s |  16 kB     02:17 ETA
+aws_instance.example_instance (remote-exec): (2/21): 163 kB/s |  18 kB     00:00
+aws_instance.example_instance (remote-exec): (3-4/21 155 kB/s |  34 kB     02:14 ETA
+aws_instance.example_instance (remote-exec): (3/21): 7.7 MB/s | 153 kB     00:00
+aws_instance.example_instance (remote-exec): (4-5/21 185 kB/s | 187 kB     01:52 ETA
+aws_instance.example_instance (remote-exec): (4/21): 1.9 MB/s |  30 kB     00:00
+aws_instance.example_instance (remote-exec): (5-6/21 493 kB/s | 1.7 MB     00:38 ETA
+aws_instance.example_instance (remote-exec): (5/21): 1.4 MB/s | 214 kB     00:00
+aws_instance.example_instance (remote-exec): (6-7/21 555 kB/s | 2.0 MB     00:34 ETA
+aws_instance.example_instance (remote-exec): (6/21):  26 MB/s | 1.6 MB     00:00
+aws_instance.example_instance (remote-exec): (7/21): 555 kB/s | 2.0 MB     00:34 ETA
+aws_instance.example_instance (remote-exec): (7/21):  22 MB/s | 700 kB     00:00
+aws_instance.example_instance (remote-exec): (8-9/21 694 kB/s | 2.7 MB     00:26 ETA
+aws_instance.example_instance (remote-exec): (8/21): 1.3 MB/s |  18 kB     00:00
+aws_instance.example_instance (remote-exec): (9-10/2 697 kB/s | 2.7 MB     00:26 ETA
+aws_instance.example_instance (remote-exec): (9/21):  10 MB/s | 216 kB     00:00
+aws_instance.example_instance (remote-exec): (10-11/ 739 kB/s | 2.9 MB     00:24 ETA
+aws_instance.example_instance (remote-exec): (10/21) 7.7 MB/s | 196 kB     00:00
+aws_instance.example_instance (remote-exec): (11-12/ 1.1 MB/s | 4.7 MB     00:14 ETA
+aws_instance.example_instance (remote-exec): (11/21) 5.4 MB/s | 179 kB     00:00
+aws_instance.example_instance (remote-exec): (12-13/ 2.1 MB/s | 9.9 MB     00:04 ETA
+aws_instance.example_instance (remote-exec): (12/21) 2.9 MB/s |  55 kB     00:00
+aws_instance.example_instance (remote-exec): (13-14/ 3.1 MB/s |  15 MB     00:01 ETA
+aws_instance.example_instance (remote-exec): (13/21)  37 MB/s | 6.3 MB     00:00
+aws_instance.example_instance (remote-exec): (14-15/ 3.7 MB/s |  18 MB     00:00 ETA
+aws_instance.example_instance (remote-exec): (14/21) 515 kB/s |  36 kB     00:00
+aws_instance.example_instance (remote-exec): (15-16/ 3.8 MB/s |  19 MB     00:00 ETA
+aws_instance.example_instance (remote-exec): (15/21)  37 MB/s |  11 MB     00:00
+aws_instance.example_instance (remote-exec): (16-17/ 4.0 MB/s |  20 MB     00:00 ETA
+aws_instance.example_instance (remote-exec): (16/21) 1.6 MB/s | 189 kB     00:00
+aws_instance.example_instance (remote-exec): (17-18/ 4.1 MB/s |  20 MB     00:00 ETA
+aws_instance.example_instance (remote-exec): (17/21) 185 kB/s |  20 kB     00:00
+aws_instance.example_instance (remote-exec): (18/21) 4.1 MB/s |  20 MB     00:00 ETA
+aws_instance.example_instance (remote-exec): (18/21) 1.2 MB/s |  17 kB     00:00
+aws_instance.example_instance (remote-exec): (19-20/ 4.1 MB/s |  20 MB     00:00 ETA
+aws_instance.example_instance (remote-exec): (19/21) 3.3 MB/s |  47 kB     00:00
+aws_instance.example_instance (remote-exec): (20-21/ 4.1 MB/s |  20 MB     00:00 ETA
+aws_instance.example_instance (remote-exec): (20/21) 466 kB/s | 9.2 kB     00:00
+aws_instance.example_instance (remote-exec): (21/21) 4.1 MB/s |  20 MB     00:00 ETA
+aws_instance.example_instance (remote-exec): (21/21) 951 kB/s |  16 kB     00:00
+aws_instance.example_instance (remote-exec): ----------------------------------------
+aws_instance.example_instance (remote-exec): Total    35 MB/s |  20 MB     00:00
+aws_instance.example_instance (remote-exec): Running transaction check
+aws_instance.example_instance (remote-exec): Transaction check succeeded.
+aws_instance.example_instance (remote-exec): Running transaction test
+aws_instance.example_instance: Still creating... [1m20s elapsed]
+aws_instance.example_instance (remote-exec): Transaction test succeeded.
+aws_instance.example_instance (remote-exec): Running transaction
+aws_instance.example_instance (remote-exec):   Preparing        :  [           ] 1/1
+aws_instance.example_instance (remote-exec):   Preparing        :  [=          ] 1/1
+aws_instance.example_instance (remote-exec):   Preparing        :  [==         ] 1/1
+aws_instance.example_instance (remote-exec):   Preparing        :  [===        ] 1/1
+aws_instance.example_instance (remote-exec):   Preparing        :  [====       ] 1/1
+aws_instance.example_instance (remote-exec):   Preparing        :  [=====      ] 1/1
+aws_instance.example_instance (remote-exec):   Preparing        :  [======     ] 1/1
+aws_instance.example_instance (remote-exec):   Preparing        :  [=======    ] 1/1
+aws_instance.example_instance (remote-exec):   Preparing        :  [========   ] 1/1
+aws_instance.example_instance (remote-exec):   Preparing        :  [=========  ] 1/1
+aws_instance.example_instance (remote-exec):   Preparing        :  [========== ] 1/1
+aws_instance.example_instance (remote-exec):   Preparing        :                1/1
+aws_instance.example_instance (remote-exec):   Installing       : mari   1/21
+aws_instance.example_instance (remote-exec):   Installing       : mariadb-co    1/21
+aws_instance.example_instance (remote-exec):   Installing       : mari   2/21
+aws_instance.example_instance (remote-exec):   Installing       : mariadb105    2/21
+aws_instance.example_instance (remote-exec):   Installing       : mari   3/21
+aws_instance.example_instance (remote-exec):   Installing       : mariadb-co    3/21
+aws_instance.example_instance (remote-exec):   Installing       : perl   4/21
+aws_instance.example_instance (remote-exec):   Installing       : perl-Sys-H    4/21
+aws_instance.example_instance (remote-exec):   Installing       : mari   5/21
+aws_instance.example_instance (remote-exec):   Installing       : mariadb105    5/21
+aws_instance.example_instance (remote-exec):   Installing       : perl   6/21
+aws_instance.example_instance (remote-exec):   Installing       : perl-Data-    6/21
+aws_instance.example_instance (remote-exec):   Installing       : perl   7/21
+aws_instance.example_instance (remote-exec):   Installing       : perl-B-1.8    7/21
+aws_instance.example_instance (remote-exec):   Installing       : perl   8/21
+aws_instance.example_instance (remote-exec):   Installing       : perl-FileH    8/21
+aws_instance.example_instance (remote-exec):   Installing       : perl   9/21
+aws_instance.example_instance (remote-exec):   Installing       : perl-Math-    9/21
+aws_instance.example_instance (remote-exec):   Installing       : perl  10/21
+aws_instance.example_instance (remote-exec):   Installing       : perl-Math-   10/21
+aws_instance.example_instance (remote-exec):   Installing       : perl  11/21
+aws_instance.example_instance (remote-exec):   Installing       : perl-base-   11/21
+aws_instance.example_instance (remote-exec):   Installing       : perl  12/21
+aws_instance.example_instance (remote-exec):   Installing       : perl-DBI-1   12/21
+aws_instance.example_instance (remote-exec):   Installing       : perl  13/21
+aws_instance.example_instance (remote-exec):   Installing       : perl-DBD-M   13/21
+aws_instance.example_instance (remote-exec):   Installing       : perl  14/21
+aws_instance.example_instance (remote-exec):   Installing       : perl-File-   14/21
+aws_instance.example_instance (remote-exec):   Running scriptlet: mysql-seli   15/21
+aws_instance.example_instance (remote-exec):   Installing       : mysq  15/21
+aws_instance.example_instance (remote-exec):   Installing       : mysql-seli   15/21
+aws_instance.example_instance (remote-exec):   Running scriptlet: mysql-seli   15/21
+aws_instance.example_instance: Still creating... [1m30s elapsed]
+aws_instance.example_instance (remote-exec): libsemanage.semanage_direct_install_info: Overriding mysql module at lower priority 100 with module at priority 200.
+
+aws_instance.example_instance (remote-exec): uavc:  op=setenforce lsm=selinux enforcing=0 res=1uavc:  op=load_policy lsm=selinux seqno=2 res=1
+aws_instance.example_instance (remote-exec):   Installing       : mari  16/21
+aws_instance.example_instance (remote-exec):   Installing       : mariadb105   16/21
+aws_instance.example_instance (remote-exec):   Installing       : mari  17/21
+aws_instance.example_instance (remote-exec):   Installing       : mariadb105   17/21
+aws_instance.example_instance (remote-exec):   Installing       : mari  18/21
+aws_instance.example_instance (remote-exec):   Installing       : mariadb105   18/21
+aws_instance.example_instance (remote-exec):   Installing       : mari  19/21
+aws_instance.example_instance (remote-exec):   Installing       : mariadb105   19/21
+aws_instance.example_instance (remote-exec):   Running scriptlet: mariadb105   20/21
+aws_instance.example_instance (remote-exec):   Installing       : mari  20/21
+aws_instance.example_instance (remote-exec):   Installing       : mariadb105   20/21
+aws_instance.example_instance (remote-exec):   Running scriptlet: mariadb105   20/21
+aws_instance.example_instance (remote-exec):   Installing       : mari  21/21
+aws_instance.example_instance (remote-exec):   Installing       : mariadb105   21/21
+aws_instance.example_instance (remote-exec):   Running scriptlet: mysql-seli   21/21
+aws_instance.example_instance (remote-exec):   Running scriptlet: mariadb105   21/21
+aws_instance.example_instance (remote-exec):   Verifying        : mariadb105    1/21
+aws_instance.example_instance (remote-exec):   Verifying        : mariadb105    2/21
+aws_instance.example_instance (remote-exec):   Verifying        : mariadb105    3/21
+aws_instance.example_instance (remote-exec):   Verifying        : mariadb105    4/21
+aws_instance.example_instance (remote-exec):   Verifying        : perl-DBD-M    5/21
+aws_instance.example_instance (remote-exec):   Verifying        : mariadb105    6/21
+aws_instance.example_instance (remote-exec):   Verifying        : perl-DBI-1    7/21
+aws_instance.example_instance (remote-exec):   Verifying        : mariadb105    8/21
+aws_instance.example_instance (remote-exec):   Verifying        : perl-Sys-H    9/21
+aws_instance.example_instance (remote-exec):   Verifying        : mariadb105   10/21
+aws_instance.example_instance (remote-exec):   Verifying        : mariadb-co   11/21
+aws_instance.example_instance (remote-exec):   Verifying        : mariadb105   12/21
+
+aws_instance.example_instance (remote-exec):   Verifying        : perl-B-1.8   13/21
+aws_instance.example_instance (remote-exec):   Verifying        : perl-Data-   14/21
+aws_instance.example_instance (remote-exec):   Verifying        : mysql-seli   15/21
+aws_instance.example_instance (remote-exec):   Verifying        : perl-Math-   16/21
+aws_instance.example_instance (remote-exec):   Verifying        : perl-File-   17/21
+aws_instance.example_instance (remote-exec):   Verifying        : perl-base-   18/21
+aws_instance.example_instance (remote-exec):   Verifying        : mariadb-co   19/21
+aws_instance.example_instance (remote-exec):   Verifying        : perl-Math-   20/21
+aws_instance.example_instance (remote-exec):   Verifying        : perl-FileH   21/21
+
+aws_instance.example_instance (remote-exec): Installed:
+aws_instance.example_instance (remote-exec):   mariadb-connector-c-3.1.13-1.amzn2023.0.3.x86_64
+aws_instance.example_instance (remote-exec):   mariadb-connector-c-config-3.1.13-1.amzn2023.0.3.noarch
+aws_instance.example_instance (remote-exec):   mariadb105-3:10.5.23-1.amzn2023.0.1.x86_64
+aws_instance.example_instance (remote-exec):   mariadb105-backup-3:10.5.23-1.amzn2023.0.1.x86_64
+aws_instance.example_instance (remote-exec):   mariadb105-common-3:10.5.23-1.amzn2023.0.1.x86_64
+aws_instance.example_instance (remote-exec):   mariadb105-cracklib-password-check-3:10.5.23-1.amzn2023.0.1.x86_64
+aws_instance.example_instance (remote-exec):   mariadb105-errmsg-3:10.5.23-1.amzn2023.0.1.x86_64
+aws_instance.example_instance (remote-exec):   mariadb105-gssapi-server-3:10.5.23-1.amzn2023.0.1.x86_64
+aws_instance.example_instance (remote-exec):   mariadb105-server-3:10.5.23-1.amzn2023.0.1.x86_64
+aws_instance.example_instance (remote-exec):   mariadb105-server-utils-3:10.5.23-1.amzn2023.0.1.x86_64
+aws_instance.example_instance (remote-exec):   mysql-selinux-1.0.4-2.amzn2023.0.3.noarch
+aws_instance.example_instance (remote-exec):   perl-B-1.80-477.amzn2023.0.6.x86_64
+aws_instance.example_instance (remote-exec):   perl-DBD-MariaDB-1.22-1.amzn2023.0.4.x86_64
+aws_instance.example_instance (remote-exec):   perl-DBI-1.643-7.amzn2023.0.3.x86_64
+aws_instance.example_instance (remote-exec):   perl-Data-Dumper-2.174-460.amzn2023.0.2.x86_64
+aws_instance.example_instance (remote-exec):   perl-File-Copy-2.34-477.amzn2023.0.6.noarch
+aws_instance.example_instance (remote-exec):   perl-FileHandle-2.03-477.amzn2023.0.6.noarch
+aws_instance.example_instance (remote-exec):   perl-Math-BigInt-1:1.9998.18-458.amzn2023.0.2.noarch
+aws_instance.example_instance (remote-exec):   perl-Math-Complex-1.59-477.amzn2023.0.6.noarch
+aws_instance.example_instance (remote-exec):   perl-Sys-Hostname-1.23-477.amzn2023.0.6.x86_64
+aws_instance.example_instance (remote-exec):   perl-base-2.27-477.amzn2023.0.6.noarch
+
+aws_instance.example_instance (remote-exec): Complete!
+aws_instance.example_instance (remote-exec): mysqld is alive
+aws_instance.example_instance (remote-exec): DB is Working
+aws_instance.example_instance (remote-exec): /home/ec2-user/invo
+aws_instance.example_instance (remote-exec): DB_ADAPTER=Mysql
+aws_instance.example_instance (remote-exec): # Use invo-mysql for dockerized environment or change it to where your db host is
+aws_instance.example_instance (remote-exec): DB_HOST=ha-mysql.cheemuggsccf.us-east-1.rds.amazonaws.com
+aws_instance.example_instance (remote-exec): DB_USERNAME=phalcon
+aws_instance.example_instance (remote-exec): DB_PASSWORD=secret1234
+aws_instance.example_instance (remote-exec): DB_DBNAME=phalcon_invo
+aws_instance.example_instance (remote-exec): DB_CHARSET=utf8
+
+aws_instance.example_instance (remote-exec): VIEWS_DIR=themes/invo/
+aws_instance.example_instance (remote-exec): BASE_URI=/
+
+aws_instance.example_instance (remote-exec): APP_URL=http://127.0.0.1:8000
+aws_instance.example_instance (remote-exec): Building Docker Image for 8.0 falcon
+aws_instance.example_instance (remote-exec): Running app on port 80
+aws_instance.example_instance (remote-exec): Unable to find image 'nginx:latest' locally
+aws_instance.example_instance (remote-exec): latest: Pulling from library/nginx
+
+aws_instance.example_instance (remote-exec): e1caac4eb9d2: Pulling fs layer
+
+aws_instance.example_instance (remote-exec): 88f6f236f401: Pulling fs layer
+
+aws_instance.example_instance (remote-exec): c3ea3344e711: Pulling fs layer
+
+aws_instance.example_instance (remote-exec): cc1bb4345a3a: Pulling fs layer
+
+
+aws_instance.example_instance (remote-exec): e1caac4eb9d2: Extracting  294.9kB/29.12MB
+aws_instance.example_instance (remote-exec): 88f6f236f401: Downloading  19.22MB/41.39MB
+
+
+
+
+
+
+
+
+
+
+
+
+
+aws_instance.example_instance (remote-exec): e1caac4eb9d2: Extracting  28.02MB/29.12MB
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+aws_instance.example_instance (remote-exec): 18a869624cb6: Pull complete
+aws_instance.example_instance (remote-exec): Digest: sha256:c26ae7472d624ba1fafd296e73cecc4f93f853088e6a9c13c0d52f6ca5865107
+aws_instance.example_instance (remote-exec): Status: Downloaded newer image for nginx:latest
+aws_instance.example_instance (remote-exec): 938de33475cff97e6f97463227dd74ff49e18bdbfbb696409f84842eb2cf090a
+aws_instance.example_instance: Creation complete after 1m44s [id=i-0a0aa385182031956]
+aws_lb_target_group_attachment.test: Creating...
+aws_lb.example_alb: Creating...
+aws_lb_target_group_attachment.test: Creation complete after 1s [id=arn:aws:elasticloadbalancing:us-east-1:767397657417:targetgroup/example-target-group/5a1556615f9feebc-20240304124657002100000005]
+aws_lb.example_alb: Still creating... [10s elapsed]
+aws_lb.example_alb: Still creating... [20s elapsed]
+aws_lb.example_alb: Still creating... [30s elapsed]
+aws_lb.example_alb: Still creating... [40s elapsed]
+aws_lb.example_alb: Still creating... [50s elapsed]
+aws_lb.example_alb: Still creating... [1m0s elapsed]
+aws_lb.example_alb: Still creating... [1m10s elapsed]
+aws_lb.example_alb: Still creating... [1m20s elapsed]
+aws_lb.example_alb: Still creating... [1m30s elapsed]
+aws_lb.example_alb: Still creating... [1m40s elapsed]
+aws_lb.example_alb: Still creating... [1m50s elapsed]
+aws_lb.example_alb: Still creating... [2m0s elapsed]
+aws_lb.example_alb: Still creating... [2m10s elapsed]
+aws_lb.example_alb: Still creating... [2m20s elapsed]
+aws_lb.example_alb: Still creating... [2m30s elapsed]
+aws_lb.example_alb: Still creating... [2m40s elapsed]
+aws_lb.example_alb: Still creating... [2m50s elapsed]
+aws_lb.example_alb: Creation complete after 2m58s [id=arn:aws:elasticloadbalancing:us-east-1:767397657417:loadbalancer/app/example-alb/3d2df6af98b91cfb]
+aws_lb_listener.example_listener: Creating...
+aws_lb_listener.example_listener: Creation complete after 2s [id=arn:aws:elasticloadbalancing:us-east-1:767397657417:listener/app/example-alb/3d2df6af98b91cfb/63e5d0ef530f5336]
+
+Apply complete! Resources: 22 added, 0 changed, 0 destroyed.
+
+Outputs:
+
+db_instance_endpoint = "ha-mysql.cheemuggsccf.us-east-1.rds.amazonaws.com:3306"
+public_ip = "44.193.222.80"
