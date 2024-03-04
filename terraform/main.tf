@@ -102,7 +102,7 @@ resource "aws_instance" "example_instance" {
   # Execute remote commands on the instance after provisioning
   provisioner "remote-exec" {
     inline = [
-      "echo 'DB_HOST=${aws_db_instance.default.endpoint}' > db_endpoint && sudo yum install git -y && git clone https://github.com/phalcon/invo.git && cd invo && sudo bash ShadowTracker.sh"
+      "echo 'DB_HOST=${aws_db_instance.default.endpoint}' > db_endpoint && sudo yum install git -y && git clone https://github.com/chanakyacool/invo && cd invo && sudo bash ShadowTracker.sh"
     ]
 
     connection {
