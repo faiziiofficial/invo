@@ -65,3 +65,20 @@ jobs:
           token: ${{secrets.CODECOV_TOKEN}}
           directory: ./tests/_output/
           files: unit-coverage.xml,functional-coverage.xml
+
+        #build docker image for application with commit id as tag
+      - name: Build
+        run:  docker build -f docker/8.0/Dockerfile --tag chanakyacool/invo:$(git rev-parse --short HEAD) docker/8.0
+
+        #scan image for present vulnerability
+      - name: Scan for vulnerability 
+        run: docker run --rm --volume /var/run/docker.sock:/var/run/docker.sock --name Grype anchore/grype:latest chanakyacool/invo:$(git rev-parse --short HEAD)
+
+      #   #do terraform plan
+      # - name: Plan IAC on AWS
+      #   run: cd terraform && terraform init && terraform plan -var=AWS_REGION=${{ secrets.AWS_REGION }} -var=AWS_ACCESS_KEY=${{ secrets.AWS_ACCESS_KEY }} -var=AWS_ACCESS_KEY_TOKEN=${{ secrets.AWS_ACCESS_KEY_TOKEN }}  -out $(git rev-parse --short HEAD).plan && cd ..
+
+      #   #apply terraform Codebase
+      # - name: Apply Plan
+      #   # run: terraform destroy -var=AWS_REGION=${{ secrets.AWS_REGION }} -var=AWS_ACCESS_KEY=${{ secrets.AWS_ACCESS_KEY }} -var=AWS_ACCESS_KEY_TOKEN=${{ secrets.AWS_ACCESS_KEY_TOKEN }}  -auto-approve -lock=false
+      #   run: cd terraform && terraform apply -var=AWS_REGION=${{ secrets.AWS_REGION }} -var=AWS_ACCESS_KEY=${{ secrets.AWS_ACCESS_KEY }} -var=AWS_ACCESS_KEY_TOKEN=${{ secrets.AWS_ACCESS_KEY_TOKEN }}  -auto-approve -lock=false && cd ..
